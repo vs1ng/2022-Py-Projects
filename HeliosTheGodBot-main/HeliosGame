@@ -1,0 +1,142 @@
+z5=input("Wwould you like to continue using  Helios?")
+def ifgameno():
+    print("Oh okay , Thats fine too !")
+    print("Well , there's just Dino run , sudoku  and chess as the games that i play :l ")
+    print("Well , if you dont , if you want i could suggest you some !")
+    z6=input("SHould i suggest you some games?")
+    if(z6=="no"):
+        print("ok")
+    if(z6=="No"):
+        print("ok")
+def ifsaidno():
+    print("Oh , okay then !")
+    print("Thank you for using Helios!")
+    r2=input("So,on a scale of good,eh and bad, How would you rate Helios?")
+    if(r2=="Good"):
+      print("OH","\U0001F602")
+      print("Thank you!","\U0001F60D")
+      print("We'll try to make it better soon tho !")
+    if(r2=="good"):
+      print("OH","\U0001F602")
+      print("Thank you!","\U0001F60D")
+      print("We'll try to make it better soon tho !")
+    if(r2=="okayish"):
+      print("Oh")
+      print("Thank you for your review!")
+      print("We'll try to make it better ASAP tho :D")
+    if(r2=="Eh"):
+      print("Oh")
+      print("Thank you for your review!")
+      print("We'll try to make it better ASAP tho :D")
+    if(r2=="eh"):
+      print("Oh")
+      print("Thank you for your review!")
+      print("We'll try to make it better ASAP tho :D")
+    if(r2=="bad","Bad","BAD","terrible","Terrible","bbad","Bbad"):
+      print("Nevertheless, thank you for your review,","\U0001F605")
+      print("We'll try to fix the issues ASAP tho :D")
+if(z5=="No"):
+    print("oh okay")
+    ifsaidno()
+if(z5=="no"):
+    print("oh okay")
+    ifsaidno()
+if(z5=="yes"):
+    print("yay")
+    print("I play sudoku, chess and Dino game :D")
+    z7=input("How many games do you play?")
+    print(z7,"?")
+    z8=input("Would you like to list them?")
+    if(z8=="no"):
+        print("oh ok")
+    if(z8=="No"):
+        print("oh ok")
+    if(z8=="yes"):
+        if(z7>"5"):
+            print("Name any 5 then :3")
+            z9=input("Enter name of the 1st game")
+            z2=input("Enter name of the 2nd game")
+            x1=input("Enter name of the 3rd game")
+            x2=input("Enter name of the 4th game")
+            z_list = [z2,z9,x1,x2]
+            print("so i presume ")
+            print(*z_list, sep = ", ")
+            print("are 5 of the games you play :3")
+        if(z7<"5"):
+            print("Name any 2 then :3")
+            x1=input("Enter name of the 1st game")
+            x2=input("Enter name of the 2nd game")
+            z_list = [x1,x2]
+            print("so i presume ")
+            print(*z_list, sep = ", ")
+            print("are 2 of the games you play :3")
+    if(z8=="Yes"):
+        if(z7>"5"):
+            print("Name any 5 then :3")
+            z9=input("Enter name of the 1st game")
+            z2=input("Enter name of the 2nd game")
+            x1=input("Enter name of the 3rd game")
+            x2=input("Enter name of the 4th game")
+            z_list = [z2,z9,x1,x2]
+            print("so i presume ")
+            print(*z_list, sep = ", ")
+            print("are 5 of the games you play :3")
+        if(z7<"5"):
+            print("Name any 2 then :3")
+            x1=input("Enter name of the 1st game")
+            x2=input("Enter name of the 2nd game")
+            z_list = [x1,x2]
+            print("so i presume ")
+            print(*z_list, sep = ", ")
+            print("are 2 of the games you play :3")
+if(z5=="Yes"):
+    print("yay")
+    print("I play sudoku, chess and Dino game :D")
+    z7=input("How many games do you play?")
+    print(z7,"?")
+    z8=input("Would you like to list them?")
+    if(z8=="no"):
+        print("oh ok")
+    if(z8=="No"):
+        print("oh ok")
+    if(z8=="yes"):
+        if(z7>"5"):
+            print("Name any 5 then :3")
+            z9=input("Enter name of the 1st game")
+            z2=input("Enter name of the 2nd game")
+            x1=input("Enter name of the 3rd game")
+            x2=input("Enter name of the 4th game")
+            z_list = [z2,z9,x1,x2]
+            print("so i presume ")
+            print(*z_list, sep = ", ")
+            print("are 5 of the games you play :3")
+        if(z7<"5"):
+            print("Name any 2 then :3")
+            x1=input("Enter name of the 1st game")
+            x2=input("Enter name of the 2nd game")
+            z_list = [x1,x2]
+            print("so i presume ")
+            print(*z_list, sep = ", ")
+            print("are 2 of the games you play :3")
+    if(z8=="Yes"):
+        if(z7>"5"):
+            print("Name any 5 then :3")
+            z9=input("Enter name of the 1st game")
+            z2=input("Enter name of the 2nd game")
+            x1=input("Enter name of the 3rd game")
+            x2=input("Enter name of the 4th game")
+            z_list = [z2,z9,x1,x2]
+            print("so i presume ")
+            print(*z_list, sep = ", ")
+            print("are 5 of the games you play :3")
+        if(z7<"5"):
+            print("Name any 2 then :3")
+            x1=input("Enter name of the 1st game")
+            x2=input("Enter name of the 2nd game")
+            z_list = [x1,x2]
+            print("so i presume ")
+            print(*z_list, sep = ", ")
+            print("are 2 of the games you play :3")
+
+    
+

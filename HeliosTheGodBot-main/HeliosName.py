@@ -1,0 +1,7 @@
+print("Welcome to ")
+print()
+print("             H    H    EEEEEE    L     IIIII    OOOO    SSSSSSS")
+print("             H    H    E         L       I     O    O    SS  ")
+print("             HHHHHH    EEEEEE    L       I     O    O      SS")
+print("             H    H    E         L       I     O    O        SS")
+print("             H    H    EEEEEE    LLLL  IIIII    OOOO    SSSSSSS")
